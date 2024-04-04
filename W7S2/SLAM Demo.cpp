@@ -120,7 +120,8 @@ sl_result capture_and_display(ILidarDriver * drv, const char* fname)
         
             //TODO: Figure out the transformation from angle+distnace
             // to (X,Y) coordinate
-            float endptX = centerPtX + dist * sin(rad); //change this            
+            float endptX = centerPtX + dist * sin(rad); //change this
+            
 	    float endptY = centerPtY + dist * cos(rad); //change this
 
             //Quality of the data is represented by brightness
